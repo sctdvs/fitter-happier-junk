@@ -1,0 +1,36 @@
+body {
+  color: black;
+  background-color: #ffcc33;
+  font-weight: 600;
+  font-family: 'Avenir Next', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 2em;
+  font-size: 1rem;
+}
+html { height: 100% }
+.center { text-align: center }
+.banner-object {
+  height: 100%;
+  //box-shadow: 0 0 0 1px rgba(white,.8);
+  &:before {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 100%;
+    vertical-align: middle;
+    margin-left: -.5rem;
+  }
+}
+.banner-body {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2em;
+  //box-shadow: inset 0 0 0 1px rgba(white,.8);
+}
+a { color: rgba(0,0,0,.6) }
+.white { color: #fff }
